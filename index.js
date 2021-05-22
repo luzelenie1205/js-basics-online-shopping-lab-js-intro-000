@@ -19,7 +19,7 @@ itemPrice:"price of the item"}
 item= addToCart.assign(itemName,itemPrice)
 cart.push(item)
 
-return cart
+console.log(cart)
 
 
 }
