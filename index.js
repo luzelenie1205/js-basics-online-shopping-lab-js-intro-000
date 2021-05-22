@@ -16,6 +16,7 @@ itemName:"name of the item"},
 {itemPrice:"price of the item"}
 //string.itemPrice=itemPrice.values(item)
 cart.push(item)
+console.log(`${item}`)
 
 return cart
 
