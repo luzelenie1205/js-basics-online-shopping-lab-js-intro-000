@@ -10,8 +10,7 @@ function setCart(c) {
 }
 
 
-function addToCart(item)
-m) {
+function addToCart(item){
   let min = 1
   let max = 100
   let random = Math.floor(Math.random() * (max - min)) + min
