@@ -17,7 +17,6 @@ var itemName={
 itemName: "name of the item"}
 var itemPrice={
 itemPrice:"price of the item"}
-item= object.assign({},itemName,itemPrice)
 cart.push(item)
 
 console.log(cart)
