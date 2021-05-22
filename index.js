@@ -11,12 +11,12 @@ function setCart(c) {
 
 function addToCart(item)
 {
-item = {
-itemName:"name of the item"},
+var itemName=
+{ itemName: "name of the item"}
+var itemPrice=
 {itemPrice:"price of the item"}
-//string.itemPrice=itemPrice.values(item)
+item= object.assign(itemName,itemPrice)
 cart.push(item)
-console.log(`${item}`)
 
 return cart
 
