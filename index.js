@@ -58,13 +58,23 @@ function total() {
 }
 
 function removeFromCart(item) {
+
   const itemName = []
 
-  for(var i = 0; i < cart.length; i++){
-    itemName.push(cart[i].itemName)
-  // write your code here
+ for(var i = 0; i < cart.length; i++){
+   itemName.push(cart[i].itemName)
+   }
+
+ const index = itemName.indexOf(item)
+
+ if(index > -1){
+    cart.splice(index, 1)
+    return cart
+ } else {
+   return `That item is not in your cart.`
+ }
 }
-}
+  
 function placeOrder(cardNumber) {
   // write your code here
 }
