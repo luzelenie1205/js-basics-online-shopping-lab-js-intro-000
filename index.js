@@ -15,10 +15,9 @@ item = {
 itemName:"name of the item"},
 {itemPrice:"price of the item"}
 //string.itemPrice=itemPrice.values(item)
-cart.push(item)
-console.log(cart.length)
+object.assign(cart,item)
+
 return cart
- `Welcome, $. You are number ${katzDeliLine.length} in line.`;
 
 
 }
