@@ -17,7 +17,7 @@ var itemPrice={itemPrice:'price of the item'}
 item= {
 [itemName]:[itemPrice]}
 
-cart.push(item)
+cart.push({item})
 
 console.log(cart,item)
 
