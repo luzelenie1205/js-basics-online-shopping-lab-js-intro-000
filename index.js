@@ -13,12 +13,12 @@ function setCart(c) {
 function addToCart(item)
 {
 item= {
-itemName: "name of the item",
-itemPrice:"price of the item"}
+itemName: 'name of the item',
+itemPrice:'price of the item'}
 
 cart.push(item)
 
-console.log(cart+item)
+console.log(cart,item)
 
 
 }
