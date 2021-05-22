@@ -12,7 +12,7 @@ function setCart(c) {
 
 function addToCart(item)
 {
-var itemName={ 
+var itemName={
 itemName: "name of the item"}
 var itemPrice={
 itemPrice:"price of the item"}
