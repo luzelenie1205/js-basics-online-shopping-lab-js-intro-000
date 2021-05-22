@@ -15,7 +15,7 @@ item = {
 itemName:"name of the item"},
 {itemPrice:"price of the item"}
 //string.itemPrice=itemPrice.values(item)
-object.assign(cart,item)
+cart.push(item)
 
 return cart
 
