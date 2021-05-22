@@ -12,6 +12,7 @@ function setCart(c) {
 
 function addToCart(item)
 {
+item= object.assign({},itemName,itemPrice)
 var itemName={
 itemName: "name of the item"}
 var itemPrice={
