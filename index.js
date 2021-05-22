@@ -9,9 +9,24 @@ function setCart(c) {
   return cart;
 }
 
-function addToCart(item) {
- // write your code here
+function addToCart(item)
+{
+item = {
+itemName:"name of the item"},
+{itemPrice:"price of the item"}
+//string.itemPrice=itemPrice.values(item)
+cart.push({item})
+console.log('${item}')
+return cart
+
+
 }
+
+
+
+//we need cart to increase and push items together
+ // write your code here
+
 
 function viewCart() {
   // write your code here
