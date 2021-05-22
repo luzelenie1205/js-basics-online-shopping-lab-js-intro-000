@@ -18,7 +18,7 @@ itemPrice:"price of the item"}
 
 cart.push(item)
 
-console.log(cart)
+console.log(cart+item)
 
 
 }
