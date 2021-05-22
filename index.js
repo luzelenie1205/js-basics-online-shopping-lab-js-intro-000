@@ -15,7 +15,7 @@ function addToCart(item)
 var itemName= {itemName:'name of the item'}
 var itemPrice={itemPrice:'price of the item'}
 item= {
-[itemName],[itemPrice]}
+[itemName]:[itemPrice]}
 
 cart.push(item)
 
