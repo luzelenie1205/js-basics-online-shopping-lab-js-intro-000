@@ -9,13 +9,14 @@ function setCart(c) {
   return cart;
 }
 
+
 function addToCart(item)
 {
-var itemName=
-{ itemName: "name of the item"}
-var itemPrice=
-{itemPrice:"price of the item"}
-item= object.assign(itemName,itemPrice)
+var itemName={ 
+itemName: "name of the item"}
+var itemPrice={
+itemPrice:"price of the item"}
+item= item.assign(itemName,itemPrice)
 cart.push(item)
 
 return cart
