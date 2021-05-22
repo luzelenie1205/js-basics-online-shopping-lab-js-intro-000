@@ -47,11 +47,13 @@ function viewCart() {  if (cart.length === 0) {
 
 function total() {
   let numbers = []
-  let sum = 0
+ let sum = 0 
 
-  for (var i = 0; i < cart.length; i++) {
-    numbers.push(cart[i].itemPrice)
-    sum += numbers[i]
+ for (var i = 0; i < cart.length; i++) {
+   numbers.push(cart[i].itemPrice)
+   sum += numbers[i]
+ }
+ return sum
   // write your code here
 }
 
