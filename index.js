@@ -12,8 +12,8 @@ function setCart(c) {
 
 function addToCart(item)
 {
-var itemName: 'name of the item'
-var itemPrice:'price of the item'
+var itemName= {itemName:'name of the item'}
+var itemPrice={itemPrice:'price of the item'}
 item= {
 [itemName],[itemPrice]}
 
