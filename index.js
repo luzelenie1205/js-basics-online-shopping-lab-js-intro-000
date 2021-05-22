@@ -58,6 +58,10 @@ function total() {
 }
 
 function removeFromCart(item) {
+  const itemName = []
+
+  for(var i = 0; i < cart.length; i++){
+    itemName.push(cart[i].itemName)
   // write your code here
 }
 
