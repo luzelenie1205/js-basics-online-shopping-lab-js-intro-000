@@ -64,7 +64,7 @@ function removeFromCart(item) {
     itemName.push(cart[i].itemName)
   // write your code here
 }
-
+}
 function placeOrder(cardNumber) {
   // write your code here
 }
