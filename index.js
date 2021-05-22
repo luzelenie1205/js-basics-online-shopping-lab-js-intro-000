@@ -11,19 +11,19 @@ function setCart(c) {
 
 
 function addToCart(item)
-{
-var itemName= {itemName:'name of the item'}
-var itemPrice={itemPrice:'price of the item'}
-item= {
-[itemName]:[itemPrice]}
+m) {
+  let min = 1
+  let max = 100
+  let random = Math.floor(Math.random() * (max - min)) + min
 
-cart.push({item})
+   var itemHash = {
+     itemName: item,
+     itemPrice: random
+   }
 
-console.log(cart,item)
-
-
+   cart.push(itemHash)
+   return `${cart[cart.length - 1].itemName} has been added to your cart.`
 }
-
 
 
 //we need cart to increase and push items together
